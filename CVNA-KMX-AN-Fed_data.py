@@ -7,7 +7,7 @@ stocks = stocks.split()
 data = yf.download(stocks, '2017-04-28')['Close']
 data.head(600)
 
-#fedData = pd.read_csv("usedCars.csv")
+#fedData = pd.read_csv("Fed-Data-Monthly.csv")
 #fedData.set_index('Date', inplace=True)
 #fedData.head(30)
 #I was trying to put used car sales data on a seperate y axis to see if there was any correlation but had no luck in figuring out how to do so in python
